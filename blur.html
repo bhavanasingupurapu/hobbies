@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<title>Cooking></title>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+.column1{
+            position: absolute;
+            width: 40%;
+            right: 30%;
+            top:  23%;
+}
+.column2{
+}
+.row::after{
+content:"";
+display:table;
+clear:both;
+}
+.column3
+{
+border-radius:50%;
+border:5px;
+}
+.navbar{
+background: crimson;font-family:calibri;padding-right:15px;padding-left:15px;
+}
+.navdiv{
+display:flex;align-items:center;justify-content:space-between;
+}
+.logo a{
+font-size:35px; font-weight:600;color:white;
+}
+li{
+list-style:none;display:inline-block;
+}
+li a{
+color:white;font-size:18px;font-weight:bold; margin-right:25px;
+}
+
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.bg-image {
+  /* The image used */
+  background-image: url("https://media.istockphoto.com/id/1457979959/photo/snack-junk-fast-food-on-table-in-restaurant-soup-sauce-ornament-grill-hamburger-french-fries.webp?b=1&s=170667a&w=0&k=20&c=A_MdmsSdkTspk9Mum_bDVB2ko0RKoyjB7ZXQUnSOHl0=");
+  
+  /* Add the blur effect */
+  filter: blur(8px);
+  -webkit-filter: blur(8px);
+  
+  /* Full height */
+  height: 100%; 
+  
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Position text in the middle of the page/image */
+.bg-text {
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+  color: white;
+  font-weight: bold;
+  border: 3px solid #f1f1f1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 80%;
+  padding: 20px;
+  text-align: center;
+}
+</style>
+</head>
+<body>
+<img class="column3" src="https://vendotic.com/public/uploads/large/132169756616621nq7gl9ixllb6qj3uowxdzjotcao2we652u0rxb8lkfalmffjc4rcetgx2rvqkww7wrdyfl72h3uxvafahwjzfquod1pyfnpem9.jpg" height="100" width="100">
+<nav class="navbar">
+<div class="navdiv">
+<div class="logo"><a href="#">Hobbies</a></div>
+
+<ul>
+<li><a href="minor.html">Home</a>
+<li><a href="about.html">About</a>
+<li><a href="contact.html">Contact</a>
+</nav>
+
+
+<div class="bg-image"></div>
+
+<div class="bg-text">
+  <h1>IT'S COOKING TIME</h1>
+<a href="cooking.html"target="blank"><h1>Click me</h1></a>
+  <h2 style="font-size:50px">to learn cooking</h2>
+</div>
+
+</body>
+</html>
